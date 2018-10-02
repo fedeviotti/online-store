@@ -23,7 +23,7 @@ import * as Cart from "./../store/actions";
 })
 export class CartComponent implements OnInit {
 
-  cart: Observable<Array<any>>
+  cart: Observable<Array<any>>;
   constructor(private store:Store<any>) { 
     this.cart = this.store.select('cart')
   }
