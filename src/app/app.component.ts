@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/Observable';
   template: `
     <div style="text-align:center">
       <h1>
-        Welcome to {{title}}!
+        Benvenuti nel nostro {{title}}!
       </h1>
     </div>
     <div class="container">
