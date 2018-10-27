@@ -6,9 +6,9 @@ import { Observable } from 'rxjs/Observable';
   selector: 'app-root',
   template: `
     <div style="text-align:center">
-      <h1>
+      <h2>
         Benvenuti nel nostro {{title}}!
-      </h1>
+      </h2>
     </div>
     <div class="container">
       <div class="row">
