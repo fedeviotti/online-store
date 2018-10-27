@@ -13,7 +13,6 @@ import { Observable } from 'rxjs/Observable';
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <h1 class="text-center">Online Store</h1>
           <h6 class="text-center"><a [routerLink]="['/cart']">Cart: {{(cart | async).length}}</a></h6>
           <hr />
         </div>
